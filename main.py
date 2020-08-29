@@ -20,3 +20,20 @@ def shape_recurse(t, level, size):
       tim.right(50)
       tim.backward(70)
 shape_recurse(tim, 2, 500)
+
+
+Question1 = None
+Question2 = None
+
+def Setup():
+  global Question1
+  global Question2
+  while True:
+    try:
+      Question1 = int(input("What level would you like the shape to be?"))
+      Question2 = int(input("How long do you want the shape?"))
+      break
+    except ValueError:
+      print("Please type in the numbers again.")
+Setup()
+shape_recurse(tim, Question1, Question2)
