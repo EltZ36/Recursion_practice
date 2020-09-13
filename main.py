@@ -1,3 +1,7 @@
+''' I am not an expert on recursion but it is when a function calls itself. This usually leads to the function looping and stopping when the loop is done or broken. 
+I wanted to practice it as I never understood what it was and why it should be used. 
+The turtle library is good with recursion and allows you draw shapess which is a bit more creative than standard Python.
+'''
 import turtle, random
 colors = ["black","red","green","blue","yellow","orange","purple","pink","gray","cyan","purple", "lightgreen","dark turquoise"] 
 tim = turtle.Turtle()
