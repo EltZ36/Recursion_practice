@@ -11,11 +11,6 @@ def shape(t,size):
   tim.speed(0)
   #Change this for how many lines you want drawn.
   for i in range(0,6):
-    '''
-    Use these for more color than just black.
-    colors2 = random.choice(colors)
-    tim.color(colors2)
-    '''
     tim.forward(size/3)
     tim.right(60)
     #You can add this to create a different shape. When I set it to level 2 and size 100, it made a flower shape. At level 4 size 100, it became a very complex shape that was a mess of overlapping lines.
