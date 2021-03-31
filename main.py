@@ -40,6 +40,7 @@ def Setup():
       break
     except ValueError:
       print("Please type in the numbers again.")
+      continue
 Setup()
 shape_recurse(tim, Question1, Question2)
 turtle.update()
