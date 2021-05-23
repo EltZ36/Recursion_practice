@@ -1,6 +1,6 @@
 ''' I am not an expert on recursion but it is when a function calls itself. This usually leads to the function looping and stopping when the loop is done or broken. 
 I wanted to practice it as I never understood what it was and why it should be used. 
-The turtle library is good with recursion and allows you draw shapess which is a bit more creative than standard Python.
+The turtle library is good with recursion and allows you draw shapes which is a bit more creative than standard Python.
 '''
 import turtle, random
 colors = ["black","red","green","blue","yellow","orange","purple","pink","gray","cyan","purple", "lightgreen","dark turquoise"] 
@@ -25,8 +25,6 @@ def shape_recurse(t, level, size):
       shape_recurse(tim, level-1,size/10)
       tim.right(50)
       tim.backward(70)
-#recursive case
-shape_recurse(tim, 2, 500)
 
 
 Question1 = None
