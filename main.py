@@ -19,7 +19,7 @@ def shape(t,size):
 def shape_recurse(t, level, size):
   if level == 1:
     #base case
-    shape(tim,150)
+    shape(tim,size)
   else:
     for i in range (0,3):
       shape_recurse(tim, level-1,size/10)
