@@ -1,5 +1,5 @@
 import turtle, random
-colors = ["black","red","green","blue","yellow","orange","purple","pink","gray","cyan","purple", "lightgreen","dark turquoise"] 
+colors = ["black","red","green","blue","yellow","firebrick","orange","purple","pink","gray","cyan","purple", "lightgreen","medium turquoise", "light sea green", "peach puff"] 
 tim = turtle.Turtle()
 turtle.mainloop()
 turtle.tracer(100,100)
